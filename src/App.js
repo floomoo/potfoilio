@@ -1,11 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { NavLink } from 'react-bootstrap';
+import { NavBar } from "./components/NavBar";
+// import { Banner } from "./components/Banner";
 
 function App() {
   return (
     <div className="App">
-      <NavLink href='#home'>home</NavLink>
+      <NavBar />
+      {/* <Banner /> */}
     </div>
   );
 }
