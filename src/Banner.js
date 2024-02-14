@@ -59,4 +59,5 @@ export const Banner = () => {
 
        </section> 
     )
+    
 }
